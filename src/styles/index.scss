@@ -1,0 +1,31 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+body {
+    background-image: url("https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/02/diferencia-autopista-autovia-1860483.jpg?itok=eFkt1go1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.box > div {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin: 0.75rem auto;
+}
+
+.box {
+    width: 10rem;
+    height: 25rem;
+    margin: 10rem auto;
+    padding-top: 1rem;
+    background-color: rgb(58, 51, 51);
+    border:1rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: black;
+}
+
+.glow {
+    box-shadow: 0 0 20px 10px rgb(10, 109, 223), 0 0 50px 25px rgb(12, 207, 197);
+}
